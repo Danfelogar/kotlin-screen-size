@@ -62,6 +62,7 @@ fun ReplyDetailsScreen(
     modifier: Modifier = Modifier,
     isFullScreen: Boolean = false
 ) {
+    //this component isn't useless because interpreting the back button of the phisical device
     BackHandler {
         onBackPressed()
     }
